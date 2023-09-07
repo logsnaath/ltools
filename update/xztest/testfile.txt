@@ -1,0 +1,11 @@
+What is Business-Critical Linux?
+Every enterprise is under pressure to reduce costs and increase efficiency, without compromising service delivery or business agility. However, many remain unsure of how to combine legacy on-premises infrastructure with the promise of limitless scale and flexibility offered by cloud-based services. SUSE’s business-critical Linux solutions maximize interoperability between these environments, simplify their management, and deliver best-in-class security.
+
+Edge applications are everywhere
+Edge computing enables enterprises to locate infrastructure services like compute, storage, and networking as close as possible to their customers' most remote and resource-constrained deployments.
+
+In this video, learn how Home Depot addresses a key challenge implementing edge computing across 2000+ stores.
+
+
+What is Enterprise Container Management?
+In the age of digital transformation, monolithic stacks from legacy vendors are expensive to maintain and can limit developer innovation. Technology leaders must look to proven enterprise container management (ECM) platforms like Rancher for the agility they need to build differentiating products and services faster than the competition without compromising on security and reliability

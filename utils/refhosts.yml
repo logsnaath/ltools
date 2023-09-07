@@ -1,0 +1,5208 @@
+---
+default:
+- addons:
+  - name: SUSE_SLES_LTSS-EXTREME-CORE
+    version:
+      major: 11
+      minor: SP4
+  - name: security
+    version:
+      major: 11
+  - name: qa
+    version:
+      major: 11
+      minor: SP4
+  - name: sle-sdk
+    version:
+      major: 11
+      minor: SP4
+  arch: x86_64
+  name: homer.qam.suse.cz
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP4
+- addons:
+  - name: qa
+    version:
+      major: 11
+      minor: SP4
+  - name: security
+    version:
+      major: 11
+  - name: sle-sdk
+    version:
+      major: 11
+      minor: SP4
+  - name: sle-hae
+    version:
+      major: 11
+      minor: SP4
+  arch: s390x
+  name: s390vsl037.suse.de
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP4
+- addons:
+  - name: security
+    version:
+      major: 11
+  - name: sle-sdk
+    version:
+      major: 11
+      minor: SP4
+  - name: sle-haegeo
+    version:
+      major: 11
+      minor: SP4
+  - name: sle-smt
+    version:
+      major: 11
+      minor: SP3
+  - name: sle-hae
+    version:
+      major: 11
+      minor: SP4
+  - name: qa
+    version:
+      major: 11
+      minor: SP4
+  - name: sle-module-pubcloud
+    version:
+      major: 11
+  arch: s390x
+  name: s390vsl137.suse.de
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP4
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 12
+  arch: ppc64le
+  name: whale-24.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-certifications
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: SLES_LTSS_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: x86_64
+  name: prague.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 12
+  arch: ppc64le
+  name: whale-10.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: ppc64le
+  name: whale-9.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-manager-tools
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  arch: s390x
+  name: s390vsl048.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  arch: s390x
+  name: s390vsl078.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  arch: ppc64le
+  name: whale-34.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-ha
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  arch: ppc64le
+  name: whale-26.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  arch: s390x
+  name: s390vsl136.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  arch: aarch64
+  name: sue.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  arch: s390x
+  name: s390vsl012.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  arch: ppc64le
+  name: whale-20.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  arch: ppc64le
+  name: whale-4.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  arch: s390x
+  name: s390vsl138.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-rt
+    version:
+      major: 15
+      minor: SP3
+  arch: x86_64
+  name: tehanu.qam.suse.cz
+  product:
+    name: SLE_RT
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  arch: ppc64le
+  name: whale-3.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-rt
+    version:
+      major: 15
+      minor: SP4
+  arch: x86_64
+  name: bojack.qam.suse.cz
+  product:
+    name: SLE_RT
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  arch: s390x
+  name: s390vsl020.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  arch: ppc64le
+  name: whale-1.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  arch: ppc64le
+  name: whale-2.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  arch: ppc64le
+  name: whale-8.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: teradata
+    version:
+      major: 11
+      minor: SP3
+  arch: x86_64
+  name: teradata1.qam.suse.de
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP3
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: teradata2.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+kernel:
+- addons:
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: fricka.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  arch: s390x
+  name: s390vsl134.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  arch: ppc64le
+  name: whale-25.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+nuremberg:
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  arch: x86_64
+  name: seven.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: x86_64
+  name: belle.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: glinda.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: snowhite.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  arch: ppc64le
+  name: whale-7.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  arch: x86_64
+  name: giant.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: PackageHub
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-manager-tools
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: x86_64
+  name: gorgon.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-manager-tools
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  arch: s390x
+  name: s390vsl067.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: PackageHub
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-manager-tools
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  arch: aarch64
+  name: crawler.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-manager-tools
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  arch: x86_64
+  name: naix.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP5
+  - name: PackageHub
+    version:
+      major: 12
+      minor: SP5
+  - name: SUSE-Linux-Enterprise-RT
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-hpc
+    version:
+      major: 12
+  arch: x86_64
+  name: omniknight.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- &id001
+  addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: PackageHub
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  arch: aarch64
+  name: riki.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- &id002
+  addons:
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  arch: aarch64
+  name: rubick.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  arch: ppc64le
+  name: whale-33.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  arch: x86_64
+  name: halley.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  arch: s390x
+  name: s390vsl082.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  arch: aarch64
+  name: slimer.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  arch: ppc64le
+  name: whale-28.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  arch: x86_64
+  name: barbara.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  arch: x86_64
+  name: deborah.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  arch: x86_64
+  name: judith.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  arch: aarch64
+  name: kevin.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP1
+  arch: ppc64le
+  name: whale-30.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-sap-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  arch: ppc64le
+  name: whale-31.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-transactional-server
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  arch: aarch64
+  name: alice.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP2
+  arch: x86_64
+  name: asriel.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  arch: aarch64
+  name: euclid.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-rt
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  arch: x86_64
+  name: roke.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  arch: aarch64
+  name: adam.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-cap-tools
+    version:
+      major: 15
+      minor: SP3
+  arch: x86_64
+  name: aziraphale.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-cap-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-rt
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-transactional-server
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  arch: x86_64
+  name: gabriel.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  arch: ppc64le
+  name: whale-5.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  arch: aarch64
+  name: antares.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  arch: x86_64
+  name: geordi.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  arch: x86_64
+  name: kathryn.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  arch: aarch64
+  name: mira.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  arch: aarch64
+  name: riguel.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  arch: s390x
+  name: s390vsl130.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+prague:
+- addons:
+  - name: sle-module-pubcloud
+    version:
+      major: 11
+  - name: qa
+    version:
+      major: 11
+      minor: SP4
+  - name: security
+    version:
+      major: 11
+  arch: i586
+  name: marge.qam.suse.cz
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP4
+- addons:
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  arch: x86_64
+  name: chris.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP1
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 12
+  arch: x86_64
+  name: peter.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP1
+- addons:
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  arch: x86_64
+  name: craig.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  arch: x86_64
+  name: kenny.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: SLES_LTSS_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-certifications
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: madrid.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-certifications
+    version:
+      major: 12
+  - name: SLES_LTSS_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  arch: x86_64
+  name: milan.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-certifications
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: SLES_LTSS_TERADATA
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 12
+  arch: x86_64
+  name: paris.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  arch: s390x
+  name: s390vsl131.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: ppc64le
+  name: whale-6.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: x86_64
+  name: goblin.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  arch: x86_64
+  name: orc.qam.suse.cz
+  product:
+    name: SLED
+    version:
+      major: 12
+      minor: SP4
+- &id003
+  addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  arch: s390x
+  name: s390vsl117.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP5
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  arch: x86_64
+  name: invoker.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  arch: x86_64
+  name: lifestealer.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- *id001
+- *id002
+- &id004
+  addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP5
+  - name: qa
+    version:
+      major: 12
+      minor: SP5
+  arch: s390x
+  name: s390vsl070.suse.de
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP5
+- addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: SLE_HPC-LTSS
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-sap-applications
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  arch: x86_64
+  name: cascade.qam.suse.cz
+  product:
+    name: SLE_HPC
+    version:
+      major: 15
+- addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-we
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  arch: x86_64
+  name: chinook.qam.suse.cz
+  product:
+    name: SLE_HPC
+    version:
+      major: 15
+- &id005
+  addons:
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  arch: aarch64
+  name: clown.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- &id006
+  addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  arch: s390x
+  name: s390vsl076.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  - name: sle-module-hpc
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-cap-tools
+    version:
+      major: 15
+  - name: sle-we
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  arch: x86_64
+  name: tyr.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+- &id007
+  addons:
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+  - name: sle-module-sap-applications
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-ha
+    version:
+      major: 15
+  arch: ppc64le
+  name: whale-27.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  arch: aarch64
+  name: bill.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-transactional-server
+    version:
+      major: 15
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-packagehub-subpackages
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  arch: aarch64
+  name: roxane.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  arch: s390x
+  name: s390vsl045.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  arch: aarch64
+  name: agnes.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: ERICSSON
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  arch: x86_64
+  name: metatron.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- &id008
+  addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 15
+      minor: SP3
+  arch: s390x
+  name: s390vsl077.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- &id009
+  addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  arch: s390x
+  name: s390vsl083.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- &id010
+  addons:
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  arch: ppc64le
+  name: whale-22.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP4
+  - name: SLES_TERADATA
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-hpc
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP4
+  - name: PackageHub
+    version:
+      major: 15
+      minor: SP4
+  - name: ERICSSON
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP4
+  arch: x86_64
+  name: brian.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP4
+prague-2:
+- addons:
+  - name: qa
+    version:
+      major: 11
+      minor: SP4
+  arch: i586
+  name: hayley.qam.suse.cz
+  product:
+    name: SUSE_SLES
+    version:
+      major: 11
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP1
+  - name: qa
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  arch: x86_64
+  name: glenn.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP1
+- addons:
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-legacy
+    version:
+      major: 12
+  arch: x86_64
+  name: stewie.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP1
+- addons:
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP2
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  - name: PackageHub
+    version:
+      major: 12
+      minor: SP2
+  arch: x86_64
+  name: cartman.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-live-patching
+    version:
+      major: 12
+  arch: x86_64
+  name: kyle.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-live-patching
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: SLES-LTSS-ERICSSON
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP2
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP2
+  arch: x86_64
+  name: timmy.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP2
+- addons:
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  arch: x86_64
+  name: rome.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- addons:
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-live-patching
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  - name: sle-module-hpc
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-ha-geo
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-ha
+    version:
+      major: 12
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  arch: x86_64
+  name: vienna.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP3
+- *id003
+- addons:
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  arch: x86_64
+  name: skeleton.qam.suse.cz
+  product:
+    name: SLED
+    version:
+      major: 12
+      minor: SP4
+- addons:
+  - name: sle-module-containers
+    version:
+      major: 12
+  - name: qa
+    version:
+      major: 12
+      minor: SP4
+  - name: SLES-LTSS
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-bsk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-toolchain
+    version:
+      major: 12
+  - name: sle-we
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-sdk
+    version:
+      major: 12
+      minor: SP4
+  - name: sle-module-adv-systems-management
+    version:
+      major: 12
+  - name: sle-module-public-cloud
+    version:
+      major: 12
+  - name: sle-module-web-scripting
+    version:
+      major: 12
+  arch: x86_64
+  name: troll.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 12
+      minor: SP4
+- *id001
+- *id002
+- *id004
+- *id005
+- addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: sle-module-live-patching
+    version:
+      major: 15
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-containers
+    version:
+      major: 15
+  - name: sle-we
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  arch: x86_64
+  name: freyr.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+- addons:
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+  - name: sle-module-server-applications
+    version:
+      major: 15
+  - name: SLES-LTSS
+    version:
+      major: 15
+  - name: PackageHub
+    version:
+      major: 15
+  - name: sle-module-legacy
+    version:
+      major: 15
+  - name: qa
+    version:
+      major: 15
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+  - name: sle-module-basesystem
+    version:
+      major: 15
+  arch: aarch64
+  name: marshmallow.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+- *id006
+- *id007
+- addons:
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-cap-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP1
+  - name: qa
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP1
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP1
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP1
+  arch: x86_64
+  name: peanutbutter.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP1
+- addons:
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: qa
+    version:
+      major: 15
+      minor: SP2
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP2
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP2
+  arch: aarch64
+  name: mary.qam.suse.de
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP2
+- addons:
+  - name: qa
+    version:
+      major: 15
+      minor: SP3
+  - name: SLES-LTSS
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-python2
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools-obs
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-live-patching
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-server-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-public-cloud
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-web-scripting
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-legacy
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP3
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP3
+  arch: x86_64
+  name: michael.qam.suse.cz
+  product:
+    name: SLES
+    version:
+      major: 15
+      minor: SP3
+- *id008
+- *id009
+- *id010
+- addons:
+  - name: sle-we
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-basesystem
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-development-tools
+    version:
+      major: 15
+      minor: SP4
+  - name: qa
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-desktop-applications
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-containers
+    version:
+      major: 15
+      minor: SP4
+  - name: sle-module-python3
+    version:
+      major: 15
+      minor: SP4
+  arch: x86_64
+  name: cleveland.qam.suse.cz
+  product:
+    name: SLED
+    version:
+      major: 15
+      minor: SP4
+...
