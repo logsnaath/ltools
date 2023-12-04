@@ -19,32 +19,34 @@ exp_sm() {
 }
 qam='exp_sm ibs qam'
 
-get_rr () {
+set_rr_vars () {
   id=$1
   id=$(echo $id | sed 's/SUSE:Maintenance/S:M/g');
   id=$(echo $id | sed -E 's|.*S:M:([0-9]{5,6}:[0-9]{6,7}).*|\1|g');
   id=$(echo $id | sed -E 's|:?([0-9]{5,6}:[0-9]{6,7}).*|\1|g');
   if [ -z "$id" ]; then
-    return
+    return 1
   fi
 
   echo "ID: $id" >&2
   incident=$(echo $id | cut -d: -f1)
   request=$(echo $id | cut -d: -f2)
-  #return
-  echo "SUSE:Maintenance:${incident}:${request}"
+  rr="SUSE:Maintenance:${incident}:${request}"
+  return 0
 }
 
 check_report() {
   local id=$1
   echo "==> Processing $id"
-  rr=$(get_rr $id)
+  if ! set_rr_vars $id; then
+    return 1
+  fi
   tmpl_dir="$HOME/qam/$rr"
   report="$tmpl_dir/log"
 
   if ! [ -f "$report" ]; then
-     echo "ERROR: File $report NOT found. Skipping ..."
-     return
+    echo "ERROR: File $report NOT found. Skipping ..."
+    return
   fi
   cur_reviewer=$(grep "Test Plan Reviewer:" $report | awk -F 'Test Plan Reviewer:' '{print $2}' | sed 's/^[ \t]*//;s/[ \t]*$//')
   echo "--> Current   Reviewer: $cur_reviewer"
@@ -53,15 +55,9 @@ check_report() {
 
 enrich_report () {
   id=$1
-  id=$(echo $id | sed 's/SUSE:Maintenance/S:M/g');
-  id=$(echo $id | sed -E 's|.*S:M:([0-9]{5,6}:[0-9]{6,7}).*|\1|g');
-  id=$(echo $id | sed -E 's|:?([0-9]{5,6}:[0-9]{6,7}).*|\1|g');
-
-  echo "ID: $id" >&2
-  incident=$(echo $id | cut -d: -f1)
-  request=$(echo $id | cut -d: -f2)
-  #return
-
+  if ! set_rr_vars $id; then
+    return 1
+  fi
   update_data="$(osc --apiurl https://api.suse.de qam info SUSE:Maintenance:${incident}:${request})"
   prod=$(echo "$update_data" | awk -F': ' '/SRCRPMs/{print $2}')
   prio=$(echo "$update_data" | awk -F': ' '/Incident Priority/{print $2}')
